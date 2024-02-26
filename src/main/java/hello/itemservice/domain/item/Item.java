@@ -6,7 +6,7 @@ import lombok.Data;
 public class Item {//has getter and setter ==> @Data
     private Long id;
     private String itemName;
-    private Integer price; //if we put a type as int the default value would be 0 ==> a price is 0 as a default? it is quite awkward
+    private Integer price; //if we put a type as int the default value would be 0 ==> a price is 0 as a default? it is quite awkward and ambiguous
     private Integer quantity; // so we put Integer as a type its default value is null ==> null is more decisive(clear) than 0
 
     public Item() {
